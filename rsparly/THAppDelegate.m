@@ -8,15 +8,13 @@
 
 #import "THAppDelegate.h"
 
-#import "THViewController.h"
-
 @implementation THAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[THViewController alloc] initWithNibName:@"THViewController" bundle:nil];
+    self.viewController = [[THMainMenuController alloc] initWithNibName:@"THMainMenuController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

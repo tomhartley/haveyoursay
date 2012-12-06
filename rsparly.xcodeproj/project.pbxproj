@@ -16,12 +16,45 @@
 		D819078B1661071E00268ADB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D819078A1661071E00268ADB /* Default.png */; };
 		D819078D1661071E00268ADB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D819078C1661071E00268ADB /* Default@2x.png */; };
 		D819078F1661071E00268ADB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D819078E1661071E00268ADB /* Default-568h@2x.png */; };
-		D81907921661071E00268ADB /* THViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81907911661071E00268ADB /* THViewController.m */; };
-		D81907951661071E00268ADB /* THViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D81907931661071E00268ADB /* THViewController.xib */; };
+		D87ABDB41661129200A18922 /* THSignInController.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABDB21661129200A18922 /* THSignInController.m */; };
+		D87ABDB51661129200A18922 /* THSignInController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D87ABDB31661129200A18922 /* THSignInController.xib */; };
+		D87ABDBE1661130400A18922 /* THMainMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABDBC1661130400A18922 /* THMainMenuController.m */; };
+		D87ABDBF1661130400A18922 /* THMainMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D87ABDBD1661130400A18922 /* THMainMenuController.xib */; };
+		D87ABDC31661131D00A18922 /* THPetitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABDC11661131D00A18922 /* THPetitionController.m */; };
+		D87ABDC41661131D00A18922 /* THPetitionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D87ABDC21661131D00A18922 /* THPetitionController.xib */; };
+		D87ABDD21661139F00A18922 /* THCreateRebuttalController.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABDD01661139F00A18922 /* THCreateRebuttalController.m */; };
+		D87ABDD31661139F00A18922 /* THCreateRebuttalController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D87ABDD11661139F00A18922 /* THCreateRebuttalController.xib */; };
+		D87ABDD7166113D800A18922 /* THCreateArgumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABDD5166113D800A18922 /* THCreateArgumentController.m */; };
+		D87ABDD8166113D800A18922 /* THCreateArgumentController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D87ABDD6166113D800A18922 /* THCreateArgumentController.xib */; };
+		D87ABDDF166126E500A18922 /* YLProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABDDE166126E400A18922 /* YLProgressBar.m */; };
+		D87ABDE416612C8D00A18922 /* THPetition.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABDE316612C8D00A18922 /* THPetition.m */; };
+		D87ABDE716612CA100A18922 /* THArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABDE616612CA100A18922 /* THArgument.m */; };
+		D87ABDEA16612CCB00A18922 /* THUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABDE916612CCB00A18922 /* THUser.m */; };
+		D87ABDED166130A700A18922 /* THConstituency.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABDEC166130A700A18922 /* THConstituency.m */; };
+		D87ABDEF1661320C00A18922 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87ABDEE1661320C00A18922 /* CoreLocation.framework */; };
+		D87ABDF21661357D00A18922 /* THPetitionsViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABDF11661357D00A18922 /* THPetitionsViewDataSource.m */; };
+		D87ABDF8166138AC00A18922 /* THPetitionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABDF7166138AB00A18922 /* THPetitionViewCell.m */; };
+		D87ABDFA166138DB00A18922 /* THPetitionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D87ABDF9166138DB00A18922 /* THPetitionViewCell.xib */; };
+		D87ABE2C166153E500A18922 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABE1A166153E500A18922 /* AFHTTPClient.m */; };
+		D87ABE2D166153E500A18922 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABE1C166153E500A18922 /* AFHTTPRequestOperation.m */; };
+		D87ABE2E166153E500A18922 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABE1E166153E500A18922 /* AFImageRequestOperation.m */; };
+		D87ABE2F166153E500A18922 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABE20166153E500A18922 /* AFJSONRequestOperation.m */; };
+		D87ABE30166153E500A18922 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABE22166153E500A18922 /* AFNetworkActivityIndicatorManager.m */; };
+		D87ABE31166153E500A18922 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABE25166153E500A18922 /* AFPropertyListRequestOperation.m */; };
+		D87ABE32166153E500A18922 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABE27166153E500A18922 /* AFURLConnectionOperation.m */; };
+		D87ABE33166153E500A18922 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABE29166153E500A18922 /* AFXMLRequestOperation.m */; };
+		D87ABE34166153E500A18922 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABE2B166153E500A18922 /* UIImageView+AFNetworking.m */; };
+		D87ABE3616615D9200A18922 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87ABE3516615D9200A18922 /* SystemConfiguration.framework */; };
+		D87ABE3A166169AB00A18922 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87ABE39166169AB00A18922 /* QuartzCore.framework */; };
+		D87ABE3C16617CCD00A18922 /* THArgumentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D87ABE3B16617CCD00A18922 /* THArgumentViewCell.xib */; };
+		D87ABE3F16617D1200A18922 /* THArgumentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABE3E16617D1100A18922 /* THArgumentViewCell.m */; };
+		D87ABE421661831A00A18922 /* THArgumentDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABE411661831A00A18922 /* THArgumentDataSource.m */; };
+		D87ABE4516623F3200A18922 /* THLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABE4416623F3100A18922 /* THLoginManager.m */; };
+		D87ABE49166265A700A18922 /* AJNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D87ABE48166265A700A18922 /* AJNotificationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D81907741661071E00268ADB /* rsparly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rsparly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81907741661071E00268ADB /* Have your Say!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Have your Say!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81907781661071E00268ADB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D819077A1661071E00268ADB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D819077C1661071E00268ADB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -34,9 +67,68 @@
 		D819078A1661071E00268ADB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D819078C1661071E00268ADB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D819078E1661071E00268ADB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		D81907901661071E00268ADB /* THViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THViewController.h; sourceTree = "<group>"; };
-		D81907911661071E00268ADB /* THViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THViewController.m; sourceTree = "<group>"; };
-		D81907941661071E00268ADB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/THViewController.xib; sourceTree = "<group>"; };
+		D87ABDB11661129200A18922 /* THSignInController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THSignInController.h; sourceTree = "<group>"; };
+		D87ABDB21661129200A18922 /* THSignInController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THSignInController.m; sourceTree = "<group>"; };
+		D87ABDB31661129200A18922 /* THSignInController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THSignInController.xib; sourceTree = "<group>"; };
+		D87ABDBB1661130400A18922 /* THMainMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THMainMenuController.h; sourceTree = "<group>"; };
+		D87ABDBC1661130400A18922 /* THMainMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THMainMenuController.m; sourceTree = "<group>"; };
+		D87ABDBD1661130400A18922 /* THMainMenuController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THMainMenuController.xib; sourceTree = "<group>"; };
+		D87ABDC01661131D00A18922 /* THPetitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPetitionController.h; sourceTree = "<group>"; };
+		D87ABDC11661131D00A18922 /* THPetitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPetitionController.m; sourceTree = "<group>"; };
+		D87ABDC21661131D00A18922 /* THPetitionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THPetitionController.xib; sourceTree = "<group>"; };
+		D87ABDCF1661139F00A18922 /* THCreateRebuttalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCreateRebuttalController.h; sourceTree = "<group>"; };
+		D87ABDD01661139F00A18922 /* THCreateRebuttalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCreateRebuttalController.m; sourceTree = "<group>"; };
+		D87ABDD11661139F00A18922 /* THCreateRebuttalController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THCreateRebuttalController.xib; sourceTree = "<group>"; };
+		D87ABDD4166113D800A18922 /* THCreateArgumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCreateArgumentController.h; sourceTree = "<group>"; };
+		D87ABDD5166113D800A18922 /* THCreateArgumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCreateArgumentController.m; sourceTree = "<group>"; };
+		D87ABDD6166113D800A18922 /* THCreateArgumentController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THCreateArgumentController.xib; sourceTree = "<group>"; };
+		D87ABDDD166126E400A18922 /* YLProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLProgressBar.h; sourceTree = "<group>"; };
+		D87ABDDE166126E400A18922 /* YLProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLProgressBar.m; sourceTree = "<group>"; };
+		D87ABDE0166127B200A18922 /* ARCMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCMacro.h; sourceTree = "<group>"; };
+		D87ABDE216612C8D00A18922 /* THPetition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPetition.h; sourceTree = "<group>"; };
+		D87ABDE316612C8D00A18922 /* THPetition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPetition.m; sourceTree = "<group>"; };
+		D87ABDE516612CA100A18922 /* THArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THArgument.h; sourceTree = "<group>"; };
+		D87ABDE616612CA100A18922 /* THArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THArgument.m; sourceTree = "<group>"; };
+		D87ABDE816612CCB00A18922 /* THUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THUser.h; sourceTree = "<group>"; };
+		D87ABDE916612CCB00A18922 /* THUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THUser.m; sourceTree = "<group>"; };
+		D87ABDEB166130A700A18922 /* THConstituency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THConstituency.h; sourceTree = "<group>"; };
+		D87ABDEC166130A700A18922 /* THConstituency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THConstituency.m; sourceTree = "<group>"; };
+		D87ABDEE1661320C00A18922 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D87ABDF01661357C00A18922 /* THPetitionsViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPetitionsViewDataSource.h; sourceTree = "<group>"; };
+		D87ABDF11661357D00A18922 /* THPetitionsViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPetitionsViewDataSource.m; sourceTree = "<group>"; };
+		D87ABDF6166138AB00A18922 /* THPetitionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPetitionViewCell.h; sourceTree = "<group>"; };
+		D87ABDF7166138AB00A18922 /* THPetitionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPetitionViewCell.m; sourceTree = "<group>"; };
+		D87ABDF9166138DB00A18922 /* THPetitionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THPetitionViewCell.xib; sourceTree = "<group>"; };
+		D87ABE19166153E500A18922 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		D87ABE1A166153E500A18922 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		D87ABE1B166153E500A18922 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		D87ABE1C166153E500A18922 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		D87ABE1D166153E500A18922 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		D87ABE1E166153E500A18922 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		D87ABE1F166153E500A18922 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		D87ABE20166153E500A18922 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		D87ABE21166153E500A18922 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		D87ABE22166153E500A18922 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		D87ABE23166153E500A18922 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		D87ABE24166153E500A18922 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		D87ABE25166153E500A18922 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		D87ABE26166153E500A18922 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		D87ABE27166153E500A18922 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		D87ABE28166153E500A18922 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		D87ABE29166153E500A18922 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		D87ABE2A166153E500A18922 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		D87ABE2B166153E500A18922 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		D87ABE3516615D9200A18922 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D87ABE39166169AB00A18922 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D87ABE3B16617CCD00A18922 /* THArgumentViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THArgumentViewCell.xib; sourceTree = "<group>"; };
+		D87ABE3D16617D1000A18922 /* THArgumentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THArgumentViewCell.h; sourceTree = "<group>"; };
+		D87ABE3E16617D1100A18922 /* THArgumentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THArgumentViewCell.m; sourceTree = "<group>"; };
+		D87ABE401661831900A18922 /* THArgumentDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THArgumentDataSource.h; sourceTree = "<group>"; };
+		D87ABE411661831A00A18922 /* THArgumentDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THArgumentDataSource.m; sourceTree = "<group>"; };
+		D87ABE4316623F3000A18922 /* THLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THLoginManager.h; sourceTree = "<group>"; };
+		D87ABE4416623F3100A18922 /* THLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THLoginManager.m; sourceTree = "<group>"; };
+		D87ABE47166265A700A18922 /* AJNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJNotificationView.h; sourceTree = "<group>"; };
+		D87ABE48166265A700A18922 /* AJNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJNotificationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +136,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87ABE3A166169AB00A18922 /* QuartzCore.framework in Frameworks */,
+				D87ABE3616615D9200A18922 /* SystemConfiguration.framework in Frameworks */,
+				D87ABDEF1661320C00A18922 /* CoreLocation.framework in Frameworks */,
 				D81907791661071E00268ADB /* UIKit.framework in Frameworks */,
 				D819077B1661071E00268ADB /* Foundation.framework in Frameworks */,
 				D819077D1661071E00268ADB /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +151,8 @@
 		D81907691661071E00268ADB = {
 			isa = PBXGroup;
 			children = (
+				D87ABE46166265A600A18922 /* AJNotificationView */,
+				D87ABE18166153E500A18922 /* AFNetworking */,
 				D819077E1661071E00268ADB /* rsparly */,
 				D81907771661071E00268ADB /* Frameworks */,
 				D81907751661071E00268ADB /* Products */,
@@ -65,7 +162,7 @@
 		D81907751661071E00268ADB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D81907741661071E00268ADB /* rsparly.app */,
+				D81907741661071E00268ADB /* Have your Say!.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +170,9 @@
 		D81907771661071E00268ADB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D87ABE39166169AB00A18922 /* QuartzCore.framework */,
+				D87ABE3516615D9200A18922 /* SystemConfiguration.framework */,
+				D87ABDEE1661320C00A18922 /* CoreLocation.framework */,
 				D81907781661071E00268ADB /* UIKit.framework */,
 				D819077A1661071E00268ADB /* Foundation.framework */,
 				D819077C1661071E00268ADB /* CoreGraphics.framework */,
@@ -83,12 +183,40 @@
 		D819077E1661071E00268ADB /* rsparly */ = {
 			isa = PBXGroup;
 			children = (
+				D87ABDE0166127B200A18922 /* ARCMacro.h */,
+				D87ABDDD166126E400A18922 /* YLProgressBar.h */,
+				D87ABDDE166126E400A18922 /* YLProgressBar.m */,
+				D87ABDB11661129200A18922 /* THSignInController.h */,
+				D87ABDB21661129200A18922 /* THSignInController.m */,
+				D87ABDB31661129200A18922 /* THSignInController.xib */,
 				D81907871661071E00268ADB /* THAppDelegate.h */,
 				D81907881661071E00268ADB /* THAppDelegate.m */,
-				D81907901661071E00268ADB /* THViewController.h */,
-				D81907911661071E00268ADB /* THViewController.m */,
-				D81907931661071E00268ADB /* THViewController.xib */,
 				D819077F1661071E00268ADB /* Supporting Files */,
+				D87ABDBB1661130400A18922 /* THMainMenuController.h */,
+				D87ABDBC1661130400A18922 /* THMainMenuController.m */,
+				D87ABDBD1661130400A18922 /* THMainMenuController.xib */,
+				D87ABE4316623F3000A18922 /* THLoginManager.h */,
+				D87ABE4416623F3100A18922 /* THLoginManager.m */,
+				D87ABDC01661131D00A18922 /* THPetitionController.h */,
+				D87ABDC11661131D00A18922 /* THPetitionController.m */,
+				D87ABDC21661131D00A18922 /* THPetitionController.xib */,
+				D87ABE401661831900A18922 /* THArgumentDataSource.h */,
+				D87ABE411661831A00A18922 /* THArgumentDataSource.m */,
+				D87ABDCF1661139F00A18922 /* THCreateRebuttalController.h */,
+				D87ABDD01661139F00A18922 /* THCreateRebuttalController.m */,
+				D87ABDD11661139F00A18922 /* THCreateRebuttalController.xib */,
+				D87ABDD4166113D800A18922 /* THCreateArgumentController.h */,
+				D87ABDD5166113D800A18922 /* THCreateArgumentController.m */,
+				D87ABDD6166113D800A18922 /* THCreateArgumentController.xib */,
+				D87ABDF01661357C00A18922 /* THPetitionsViewDataSource.h */,
+				D87ABDF11661357D00A18922 /* THPetitionsViewDataSource.m */,
+				D87ABDF6166138AB00A18922 /* THPetitionViewCell.h */,
+				D87ABDF7166138AB00A18922 /* THPetitionViewCell.m */,
+				D87ABDF9166138DB00A18922 /* THPetitionViewCell.xib */,
+				D87ABE3D16617D1000A18922 /* THArgumentViewCell.h */,
+				D87ABE3E16617D1100A18922 /* THArgumentViewCell.m */,
+				D87ABE3B16617CCD00A18922 /* THArgumentViewCell.xib */,
+				D87ABDE116612C1100A18922 /* Model */,
 			);
 			path = rsparly;
 			sourceTree = "<group>";
@@ -105,6 +233,56 @@
 				D819078E1661071E00268ADB /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D87ABDE116612C1100A18922 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D87ABDE216612C8D00A18922 /* THPetition.h */,
+				D87ABDE316612C8D00A18922 /* THPetition.m */,
+				D87ABDE516612CA100A18922 /* THArgument.h */,
+				D87ABDE616612CA100A18922 /* THArgument.m */,
+				D87ABDE816612CCB00A18922 /* THUser.h */,
+				D87ABDE916612CCB00A18922 /* THUser.m */,
+				D87ABDEB166130A700A18922 /* THConstituency.h */,
+				D87ABDEC166130A700A18922 /* THConstituency.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D87ABE18166153E500A18922 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				D87ABE19166153E500A18922 /* AFHTTPClient.h */,
+				D87ABE1A166153E500A18922 /* AFHTTPClient.m */,
+				D87ABE1B166153E500A18922 /* AFHTTPRequestOperation.h */,
+				D87ABE1C166153E500A18922 /* AFHTTPRequestOperation.m */,
+				D87ABE1D166153E500A18922 /* AFImageRequestOperation.h */,
+				D87ABE1E166153E500A18922 /* AFImageRequestOperation.m */,
+				D87ABE1F166153E500A18922 /* AFJSONRequestOperation.h */,
+				D87ABE20166153E500A18922 /* AFJSONRequestOperation.m */,
+				D87ABE21166153E500A18922 /* AFNetworkActivityIndicatorManager.h */,
+				D87ABE22166153E500A18922 /* AFNetworkActivityIndicatorManager.m */,
+				D87ABE23166153E500A18922 /* AFNetworking.h */,
+				D87ABE24166153E500A18922 /* AFPropertyListRequestOperation.h */,
+				D87ABE25166153E500A18922 /* AFPropertyListRequestOperation.m */,
+				D87ABE26166153E500A18922 /* AFURLConnectionOperation.h */,
+				D87ABE27166153E500A18922 /* AFURLConnectionOperation.m */,
+				D87ABE28166153E500A18922 /* AFXMLRequestOperation.h */,
+				D87ABE29166153E500A18922 /* AFXMLRequestOperation.m */,
+				D87ABE2A166153E500A18922 /* UIImageView+AFNetworking.h */,
+				D87ABE2B166153E500A18922 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		D87ABE46166265A600A18922 /* AJNotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				D87ABE47166265A700A18922 /* AJNotificationView.h */,
+				D87ABE48166265A700A18922 /* AJNotificationView.m */,
+			);
+			path = AJNotificationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +302,7 @@
 			);
 			name = rsparly;
 			productName = rsparly;
-			productReference = D81907741661071E00268ADB /* rsparly.app */;
+			productReference = D81907741661071E00268ADB /* Have your Say!.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -163,7 +341,13 @@
 				D819078B1661071E00268ADB /* Default.png in Resources */,
 				D819078D1661071E00268ADB /* Default@2x.png in Resources */,
 				D819078F1661071E00268ADB /* Default-568h@2x.png in Resources */,
-				D81907951661071E00268ADB /* THViewController.xib in Resources */,
+				D87ABDB51661129200A18922 /* THSignInController.xib in Resources */,
+				D87ABDBF1661130400A18922 /* THMainMenuController.xib in Resources */,
+				D87ABDC41661131D00A18922 /* THPetitionController.xib in Resources */,
+				D87ABDD31661139F00A18922 /* THCreateRebuttalController.xib in Resources */,
+				D87ABDD8166113D800A18922 /* THCreateArgumentController.xib in Resources */,
+				D87ABDFA166138DB00A18922 /* THPetitionViewCell.xib in Resources */,
+				D87ABE3C16617CCD00A18922 /* THArgumentViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +360,31 @@
 			files = (
 				D81907851661071E00268ADB /* main.m in Sources */,
 				D81907891661071E00268ADB /* THAppDelegate.m in Sources */,
-				D81907921661071E00268ADB /* THViewController.m in Sources */,
+				D87ABDB41661129200A18922 /* THSignInController.m in Sources */,
+				D87ABDBE1661130400A18922 /* THMainMenuController.m in Sources */,
+				D87ABDC31661131D00A18922 /* THPetitionController.m in Sources */,
+				D87ABDD21661139F00A18922 /* THCreateRebuttalController.m in Sources */,
+				D87ABDD7166113D800A18922 /* THCreateArgumentController.m in Sources */,
+				D87ABDDF166126E500A18922 /* YLProgressBar.m in Sources */,
+				D87ABDE416612C8D00A18922 /* THPetition.m in Sources */,
+				D87ABDE716612CA100A18922 /* THArgument.m in Sources */,
+				D87ABDEA16612CCB00A18922 /* THUser.m in Sources */,
+				D87ABDED166130A700A18922 /* THConstituency.m in Sources */,
+				D87ABDF21661357D00A18922 /* THPetitionsViewDataSource.m in Sources */,
+				D87ABDF8166138AC00A18922 /* THPetitionViewCell.m in Sources */,
+				D87ABE2C166153E500A18922 /* AFHTTPClient.m in Sources */,
+				D87ABE2D166153E500A18922 /* AFHTTPRequestOperation.m in Sources */,
+				D87ABE2E166153E500A18922 /* AFImageRequestOperation.m in Sources */,
+				D87ABE2F166153E500A18922 /* AFJSONRequestOperation.m in Sources */,
+				D87ABE30166153E500A18922 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				D87ABE31166153E500A18922 /* AFPropertyListRequestOperation.m in Sources */,
+				D87ABE32166153E500A18922 /* AFURLConnectionOperation.m in Sources */,
+				D87ABE33166153E500A18922 /* AFXMLRequestOperation.m in Sources */,
+				D87ABE34166153E500A18922 /* UIImageView+AFNetworking.m in Sources */,
+				D87ABE3F16617D1200A18922 /* THArgumentViewCell.m in Sources */,
+				D87ABE421661831A00A18922 /* THArgumentDataSource.m in Sources */,
+				D87ABE4516623F3200A18922 /* THLoginManager.m in Sources */,
+				D87ABE49166265A700A18922 /* AJNotificationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +397,6 @@
 				D81907821661071E00268ADB /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D81907931661071E00268ADB /* THViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D81907941661071E00268ADB /* en */,
-			);
-			name = THViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -259,7 +459,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rsparly/rsparly-Prefix.pch";
 				INFOPLIST_FILE = "rsparly/rsparly-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Have your Say!";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -270,7 +470,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rsparly/rsparly-Prefix.pch";
 				INFOPLIST_FILE = "rsparly/rsparly-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Have your Say!";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -294,6 +494,7 @@
 				D819079A1661071E00268ADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

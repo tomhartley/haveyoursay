@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "THMainMenuController.h"
 
 @class THViewController;
 
@@ -14,6 +15,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) THViewController *viewController;
+@property (strong, nonatomic) THMainMenuController *viewController;
 
 @end
